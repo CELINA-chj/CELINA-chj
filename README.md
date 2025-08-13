@@ -32,9 +32,9 @@
 ---
 
 ## 📬 Contact the Chef
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: https://linkedin.com/in/username
-- 📝 Blog: https://yourblog.com
+- 📧 Email: alsxm37@gmail.com
+- 💼 LinkedIn: https://linkedin.com/in/CELINA-chj
+- 📝 Blog: N/A
 
 ---
 
