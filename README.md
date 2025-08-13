@@ -74,3 +74,4 @@ with open("README.md", "w", encoding="utf-8") as f:
     f.write(readme_content)
 
 print("README.md updated for Bakery Jin!")
+
