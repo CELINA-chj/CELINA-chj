@@ -21,11 +21,11 @@
 ---
 
 ## 📬 Contact the Chef
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: https://linkedin.com/in/username
-- 📝 Blog: https://yourblog.com
+- 📧 Email: alsxm37@gmail.com
+- 💼 LinkedIn: https://linkedin.com/in/CELINA-chj
+- 📝 Blog: N/A
 
 ---
 
-⭐️ From [Hyejin's Coding Café](https://github.com/본인아이디)  
+⭐️ From [Hyejin's Coding Café](https://github.com/CELINA-chj)  
 ☕ Coffee + Code + Croissant = The Perfect Day
