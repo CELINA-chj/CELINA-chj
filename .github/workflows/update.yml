@@ -1,9 +1,9 @@
-name: Update Café Menu Daily
+name: Update Bakery Jin Menu Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 00:00 UTC = 한국시간 오전 9시
-  workflow_dispatch:     # 필요할 때 수동 실행 버튼 생김
+    - cron: "0 0 * * *"  # 매일 00:00 UTC = 한국시간 오전 9시
+  workflow_dispatch:     # 수동 실행 버튼도 생성
 
 permissions:
   contents: write        # README 자동 커밋/푸시에 필요
@@ -12,25 +12,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Run update script
-        run: python update_readme.py
-
-      - name: Commit changes (skip if no diff)
-        run: |
-          git config --local user.email "CELINA-chj@github.com"
-          git config --local user.name "CELINA-chj"
-          if git diff --quiet; then
-            echo "No changes to commit."
-          else
-            git add README.md
-            git commit -m "Update README (auto)"
-            git push
-          fi
+      - name: Set up Py
