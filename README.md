@@ -1,24 +1,31 @@
-name: Auto Update
+<h1 align="center">☕ Welcome to Hyejin's Coding Café 🥐</h1>
+<h3 align="center">Backend Developer in Training | Full-time Baker at Heart</h3>
 
-on:
-  schedule:
-    - cron: "0 0 * * *"  # 매일 00:00 UTC 실행
-  workflow_dispatch:     # 수동 실행 버튼도 생성
+---
 
-jobs:
-  run-script:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+## 📝 Today's Special
+| 메뉴 | 설명 | 가격 |
+|------|------|------|
+| ☕ **Coffee** | Keeps me coding past midnight | 💻 Commit × 1 |
+| 🥐 **Croissant** | Buttery, flaky, and made with love | 🐍 Python lesson |
+| 🍰 **Cheesecake** | Sweet and rich, like a perfect API | 📚 1 chapter study |
+| 🍫 **Choco Cookie** | Debugging fuel | 🔧 Fixed 3 bugs |
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
+---
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt || true
+## 🌟 Today's Recommendation
+- 🍞 Cost Calculator Web App — 제빵사들을 위한 재료 원가 계산 웹앱
+- ☕ Coffee Timer — 완벽한 브루잉을 위한 타이머 앱
+- 🍪 Cookie Clicker Clone — 귀여운 디저트 클릭 게임
 
-      - name: Run script
-        run: python auto_update.py
+---
+
+## 📬 Contact the Chef
+- 📧 Email: your.email@example.com
+- 💼 LinkedIn: https://linkedin.com/in/username
+- 📝 Blog: https://yourblog.com
+
+---
+
+⭐️ From [Hyejin's Coding Café](https://github.com/본인아이디)  
+☕ Coffee + Code + Croissant = The Perfect Day
